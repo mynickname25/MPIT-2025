@@ -1,0 +1,553 @@
+@font-face {
+font-family: "NunitoRegular";  
+src: url("fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+ @font-face {
+font-family: "MarmeladRegular";  
+src: url("fonts/Marmelad/Marmelad-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+main{
+    width: 1440px;
+    height: auto;
+    margin: auto;
+}
+.navbar{
+    width: 1440px;
+    height: 80px;
+    background-color: #192853;
+    display: block;
+    z-index: 2;
+    position: sticky;
+    top: 10px
+}
+.public{
+    width: 235px;
+    height: 50px;
+    font-family: "NunitoRegular";
+    font-size: 20px;
+    border-radius: 16px;
+    margin-left: 1040px;
+    margin-top: 15px;
+    position: absolute;
+    text-decoration: underline;
+    transition: 0.3s ease;
+    text-decoration: underline;
+    background-color: #FFE39A;
+    border: none;
+    color: white;
+}
+.public:hover{
+    filter: brightness(50%); /* Затемнение до 50% яркости */
+}
+.hero{
+    width: 1440px;
+    height: 700px;
+    background-image: url(images/Union.png);
+    display: block;
+}
+.logoimg{
+    width: 174px;
+    height: 55px;
+    margin-left: 165px;
+    position: absolute;
+    margin-top: 10px;
+}
+.poisk{
+    width: 475px;
+    height: 50px;
+    border: #FFE39A;
+    border-width: 3px;
+    background-color: white;
+    margin-left: 515px;
+    margin-top: 15px;
+    padding-left: 56px;
+    font-size: 20px;
+    position: absolute;
+}
+.button1{
+    width: 135px;
+    height: 50px;
+    background-color: #FFE39A;
+    color: white;
+    font-size: 20px;
+    margin-left: 855px;
+    margin-top: 15px;
+    border: none;
+    position: absolute;
+    filter: brightness(100%); /* 100% - исходная яркость */
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+.button1:hover{
+    filter: brightness(50%); /* Затемнение до 50% яркости */
+}
+.zaglav{
+    width: 625px;
+    height: 151px;
+    position: absolute;
+    margin-left: 426px;
+    margin-top: 212px;
+}
+.knopki{
+    width: 480px;
+    height: 52px;
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 416px;
+}
+.knop1{
+    height: 52px;
+    width: 255px;
+    background-color: #192853;
+    color: white;
+    font-size: 20px;
+    display: inline;
+    text-decoration: underline;
+    border: none;
+    font-family: "NunitoRegular";
+    border-radius: 16px;
+    filter: brightness(100%); /* 100% - исходная яркость */
+    transition: 0.3s ease;
+}
+.lupa{
+    position: absolute;
+    margin-left: 531px;
+    margin-top: 28px;
+    z-index: 3;
+}
+.knop1:hover{
+    filter: brightness(50%); /* Затемнение до 50% яркости */
+}
+.knop2{
+    height: 52px;
+    width: 160px;
+    background-color: #192853;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    border: none;
+    font-family: "NunitoRegular";
+    display: inline;
+    margin-left: 61px;
+    border-radius: 16px;
+    filter: brightness(100%); /* 100% - исходная яркость */
+    transition: 0.3s ease;
+}
+.knop2:hover{
+    filter: brightness(50%); /* Затемнение до 50% яркости */
+}
+.block1{
+    width: 1440px;
+    height: auto;
+    
+}
+.carousel {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 1440px;
+    overflow: hidden;
+    display: flex;
+    > * {
+      flex: 0 0 100%;
+    }
+    &:hover .group {
+      animation-play-state: paused;
+    }
+  }
+  
+.group {
+    display: flex;
+    gap: 20px;
+    /* Добавляем отступ справа, чтобы создать зазор между последней и первой картой. */
+    padding-right: 20px;
+    will-change: transform; /* Мы должны быть добры к браузеру - пусть он знает, что мы будем анимировать. */
+    animation: scrolling 20s linear infinite;
+  }
+  @keyframes scrolling {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .card {
+    width: 100%;
+    color: white;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 10%) 5px 5px 20px 0;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: "NunitoRegular";
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+
+    &:nth-child(1) {
+      background: #7958ff;
+    }
+
+    &:nth-child(2) {
+      background: #5d34f2;
+    }
+
+    &:nth-child(3) {
+      background: #4300da;
+    }
+  }
+.block2{
+    width: 1440px;
+    height: 550px;
+}
+.img{
+    margin-top: 57px;
+    margin-left: 166px;
+    font-family: "MarmeladRegular";
+    font-size: 32px;
+
+}
+.line{
+    width: 1110px;
+    height: 1px;
+    margin-left: 164px;
+    background-color: #4588CC;
+    margin-top: 16px;
+}
+.gallery{
+    width: 1100px;
+    height: 351px;
+    margin-left: 164px;
+    /*background-color: gray;*/
+    margin-top: 25px;
+    display: flex;
+}
+
+.card1{
+    width: 258px;
+    height: 350px;
+    display: inline;
+    border-radius: 16px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-color: white;
+}
+.card2{
+    width: 258px;
+    height: 350px;
+    margin-left: 30px;
+    display: inline;
+    border-radius: 16px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-color: white;
+}
+.kartink{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    &:nth-child(1) {
+      background-image: url(images/odezhda.png);
+    }
+
+    /*&:nth-child(2) {
+      background-image: url(images/ukr.png);
+    }
+
+    &:nth-child(3) {
+      background: url(images/choron.png)
+    }
+    &:nth-child(4) {
+      background-image: url(images/tort.png);
+    }
+
+    &:nth-child(5) {
+      background-image: url(images/bisser.png);
+    }
+
+    &:nth-child(6) {
+      background: url(images/haladai.png)
+    }
+    &:nth-child(7) {
+      background-image: url(images/kovri.png);
+    }
+
+    &:nth-child(8) {
+      background: url(images/pekarnya.png)
+    }*/
+}
+.kartink2{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-image: url(images/ukr.png);
+}
+.kartink3{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-image: url(images/choron.png);
+}
+.kartink4{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-image: url(images/tort.png);
+}
+.kartink5{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-image: url(images/bisser.png);
+}
+.kartink6{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-image: url(images/haladai.png);
+}
+.kartink7{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-image: url(images/kovri.png);
+}
+.kartink8{
+    border-radius: 16px;
+    width: 255px;
+    height: 160px;
+    background-color: antiquewhite;
+    /* или */
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFE39A;
+    background-image: url(images/pekarnya.png);
+}
+.nazv{
+    font-size: 24px;
+    font-family: "NunitoRegular";
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 16px;
+}
+.naz2{
+    font-family: "NunitoRegular";
+    font-size: 16px;
+    padding-left: 16px;
+}
+.sobr{
+    font-family: "NunitoRegular";
+    font-size: 20px;
+    margin-top: 31px;
+    padding-left: 16px;
+}
+
+
+
+.block3{
+    width: 1440px;
+    height: 700px;
+    background-image: url(images/novosti.png);
+    display: flex;
+}
+.novosti{
+    font-family: "MarmeladRegular";
+    font-size: 32px;
+    margin-top: 89px;
+    margin-left: 162px;
+    color: white;
+}
+.line2{
+    width: 1110px;
+    height: 1px;
+    margin-left: 160px;
+    position: absolute;
+    background-color: #FFE39A;
+    margin-top: 142px;
+}
+/* Контейнер слайдера */
+        .slider {
+            width: 987px; /* Фиксированная ширина */
+            overflow: hidden; /* Скрываем выходящие за границы изображения */
+            position: relative;
+            margin-top: 168px;
+            margin-right: 231px;
+        }
+
+        /* Контейнер, в котором будут находиться все слайды */
+        .slides {
+            display: flex; /* Располагаем слайды в ряд */
+            width: 300%; /* Делаем ширину в три раза больше (по количеству слайдов) */
+            transition: transform 0.5s ease-in-out; /* Плавное переключение слайдов */
+        }
+
+        /* Каждый отдельный слайд */
+        .slide {
+            width: 100%; /* Каждый слайд занимает всю ширину контейнера */
+            flex-shrink: 0; /* Запрещаем уменьшение элементов внутри flex-контейнера */
+            border-radius: 16px;
+        }
+
+        /* Убираем отображение радиокнопок, они нужны только для управления */
+        input[type="radio"] {
+            display: none;
+        }
+
+        /* Переключение слайдов при выборе радиокнопки */
+        #slide1:checked ~ .slides { transform: translateX(0%); }   /* Первый слайд */
+        #slide2:checked ~ .slides { transform: translateX(-100%); } /* Второй слайд */
+        #slide3:checked ~ .slides { transform: translateX(-200%); } /* Третий слайд */
+
+        /* Контейнер для точек управления (индикаторов) */
+        .controls {
+            text-align: center; /* Размещаем точки по центру */
+            margin-top: 10px; /* Добавляем отступ сверху */
+        }
+
+        /* Стиль для точек переключения */
+        .controls label {
+            display: inline-block; /* Размещаем точки в строку */
+            width: 15px; /* Размер точки */
+            height: 15px;
+            background: gray; /* Серый цвет точки */
+            border-radius: 50%; /* Делаем точки круглыми */
+            margin: 5px; /* Добавляем небольшой отступ между ними */
+            cursor: pointer; /* Делаем курсор в виде руки при наведении */
+        }
+
+        /* Меняем цвет активной точки при выборе слайда */
+        input:checked + label {
+            background: black;
+        }
+
+
+.block4{
+    width: 1440px;
+    height: 400px;
+    display: flex;
+    margin-top: 40px;
+}
+.kraud{
+    font-family: "MarmeladRegular";
+    font-size: 32px;
+    margin-left: 536px;
+}
+.zoloto{
+    position: absolute;
+    margin-left: 286px;
+    margin-top: 113px;
+}
+.block5{
+    background-image: url(images/otzivi.png);
+    width: 1440px;
+    height: 620px;
+    display: flex;
+}
+.otzivi{
+    font-family: "MarmeladRegular";
+    font-size: 32px;
+    margin-left: 174px;
+    margin-top: 74px
+}
+.line3{
+    width: 1100px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    margin-top: 127px;
+    margin-left: 174px;
+}
+.citata1{
+    margin-top: 106px;
+    margin-left: 292px;
+    position: absolute;
+}
+.citata2{
+    margin-top: 106px;
+    position: absolute;
+    margin-left: 768px;
+}
+
+.block6{
+    background-image: url(images/final.png);
+    overflow: hidden;
+    width: 1440px;
+    display: flex;
+    height: 581px;
+}
+.text3{
+    font-family: "MarmeladRegular";
+    font-size: 64px;
+    margin-top: 123px;
+    margin-left: 419px
+}
+.lotos{
+    margin-top: 153px;
+    margin-left: 396px;
+    position: absolute;
+}
+.finalknop{
+    font-family: "NunitoRegular";
+    font-size: 20px;
+    color: white;
+    background-color: #5369AA;
+    border-radius: 16px;
+    position: absolute;
+    text-decoration: underline;
+    margin-top: 56px;
+    margin-left: 593px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 30px;
+    border: none;
+    filter: brightness(100%); /* 100% - исходная яркость */
+    transition: 0.3s ease;
+}
+.finalknop:hover{
+    filter: brightness(50%); /* Затемнение до 50% яркости */
+}
+.podval{
+    width: 1440px;
+
+}

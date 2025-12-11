@@ -1,0 +1,186 @@
+@font-face {
+font-family: "NunitoRegular";  
+src: url("fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+ @font-face {
+font-family: "MarmeladRegular";  
+src: url("fonts/Marmelad/Marmelad-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+main{
+    width: 1440px;
+    height: auto;
+    margin: auto;
+}
+.public{
+    width: 235px;
+    height: 50px;
+    font-family: "NunitoRegular";
+    font-size: 20px;
+    border-radius: 16px;
+    margin-left: 1040px;
+    margin-top: 15px;
+    position: absolute;
+    text-decoration: underline;
+    transition: 0.3s ease;
+    text-decoration: underline;
+    background-color: #FFE39A;
+    border: none;
+    color: white;
+}
+.public:hover{
+    filter: brightness(50%); /* Затемнение до 50% яркости */}
+.navbar{
+    width: 1440px;
+    height: 80px;
+    background-color: #192853;
+    display: block;
+    z-index: 2;
+    top: 10px
+}
+.logoimg{
+    width: 174px;
+    height: 55px;
+    margin-left: 165px;
+    position: absolute;
+    margin-top: 10px;
+}
+.poisk{
+    width: 475px;
+    height: 50px;
+    border: #FFE39A;
+    border-width: 3px;
+    background-color: white;
+    margin-left: 515px;
+    margin-top: 15px;
+    padding-left: 56px;
+    font-size: 20px;
+    position: absolute;
+}
+.button1{
+    width: 135px;
+    height: 50px;
+    background-color: #FFE39A;
+    color: white;
+    font-size: 20px;
+    margin-left: 855px;
+    margin-top: 15px;
+    border: none;
+    position: absolute;
+    filter: brightness(100%); /* 100% - исходная яркость */
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+.button1:hover{
+    filter: brightness(50%); /* Затемнение до 50% яркости */
+}
+.lupa{
+    position: absolute;
+    margin-left: 531px;
+    margin-top: 28px;
+    z-index: 3;
+}
+.block{
+    width: 1440px;
+    height: 600px;
+    display: flex;
+}
+.sect1{
+    display: inline;
+    width: 540px;
+    height: 340px;
+    margin-top: 139px;
+    margin-left: 165px;
+
+}
+.tort3{
+    width: 540px;
+    height: 300px;
+    display: block;
+}
+.imya{
+    font-family: "NunitoRegular";
+    font-size: 16px;
+    margin-top: 13px;
+}
+.sect2{
+    display: inline;
+    width: 540px;
+    height: 340px;
+    margin-top: 139px;
+    
+}
+.konditer{
+    font-family: "MarmeladRegular";
+    font-size: 32px;
+    margin-left: 48px;
+}
+.description{
+    font-family: "NunitoRegular";
+    font-size: 16px;
+    margin-left: 48px;
+    margin-top: 13px;
+}
+.b2{
+    width: 480px;
+    height: 75px;
+    font-family: "NunitoRegular";
+    display: flex;
+    margin-left: 48px;
+    margin-top: 60px;
+}
+.b3{
+    display: inline;
+    width: 272px;
+    height: 75px;
+    
+}
+.b4{
+    display: inline;
+    margin-left: 36px;
+    width: 170px;
+    height: 75px;
+
+}
+.summa{
+    font-size: 40px;
+    
+}
+.summa2{
+    font-size: 16px;
+}
+.podderzhka{
+    margin-left: 50px;
+}
+.podderzhka2{
+    margin-left: 29px;
+}
+.liniya{
+    border-style: solid;
+    border-color: #5369AA;
+    border-width: 3px;
+    margin-top: 8px;
+    margin-left: 48px;
+    border-radius: 30px;
+    width: 478px;
+    height: 40px;
+}
+.zapol{
+    border-radius: 16px;
+    width: 468px;
+    height: 40px;
+    background-color: #5369AA;
+}
+.knopka{
+    width: 160px;
+    height: 55px;
+    background-color: #FFE39A;
+    margin-top: 20px;
+    margin-left: 48px;
+    text-align: center;
+    font-family: "NunitoRegular";
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="secondary.css">
+</head>
+<body>
+    <main>
+        <div class="navbar">
+            <a href="index.html">
+                <div class="logoimg">
+                    <img src="images/logo.png">
+                </div>
+                </a>
+                <div class="lupa"><img src="images/Vector (8).png"></div>
+                <form action="/search" method="get">
+                    <input class="poisk" type="search" name="q" placeholder="Поиск" />
+                    <button class="button1" type="submit">Найти</button>
+                </form>
+                <a href=""><button class="public">Создать Публикацию</button></a>
+        </div>
+        <section>
+            <div class="vhod">
+                <div class="regist1">Вход</div>
+                <form action="/submit-registration" method="post">
+                        <input class="login" type="text" name="login" placeholder="Email">
+                        <input class="password" type="password" name="password" placeholder="Пароль">
+                </form>
+                <div class="sogl1">
+                    <div class="c1">
+                        <input type="checkbox" id="agreeTerms" name="agreeTerms" value="yes">
+                    </div>
+                    <div class="cb1">
+                        <label for="agreeTerms">
+                          Запомнить меня
+                        </label>
+                    </div>
+                </div>
+                <a href="index.html"><button class="finalbut1">Войти</button></a>
+            </div>
+            <div class="text2">Еще нет аккаунта?<a href="registration.html">Зарегистрироваться</a></div>
+        </section>
+    </main>
+</body>
+</html>
